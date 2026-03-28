@@ -19,7 +19,7 @@ spec:
         - name: ghcr-secret
       containers:
         - name: hello-devops
-          image: ghcr.io/wamitinewton/hello-devops:latest
+          image: ghcr.io/wamitinewton/hello-devops:2
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
